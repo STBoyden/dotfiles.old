@@ -1,0 +1,35 @@
+colors:
+    primary:
+        background: '0x000000' 
+        foreground: '0xffffff'
+
+
+window:
+    dimensions:
+        columns: 120
+        lines: 40
+    gtk_theme_variant: dark
+    dynamic_title: true
+
+
+font:
+    size: 10.5
+    normal:
+        family: Hack
+        style: Regular
+    bold:
+        family: Hack
+        style: Bold
+
+draw_bold_text_with_bright_colors: false
+
+bell:
+    animation: EaseOutExpo
+    duration: 1
+    color: '#F07178'
+
+cursor:
+    unfocused_true: true
+
+live_config_reload: true
+

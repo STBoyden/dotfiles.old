@@ -1,0 +1,9 @@
+[submodule ".config/tmux/themes"]
+	path = .config/tmux/themes
+	url = https://github.com/jimeh/tmux-themepack
+[submodule ".vim"]
+	path = .vim
+	url = https://github.com/STBoyden/vim-config
+[submodule "Scripts"]
+	path = Scripts
+	url = https://github.com/STBoyden/Scripts

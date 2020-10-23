@@ -1,0 +1,15 @@
+clear
+source ~/.profile
+alias vim=nvim
+# alias protonvpn="sudo protonvpn"
+alias ls="exa -l --color=always --group-directories-first --git -h"
+alias greet="greeting"
+alias lg="lazygit"
+greet
+source set_dir
+
+# BASE16_SHELL="$HOME/.config/base16-shell"
+# [ -n "$PS1" ] && \
+#     [ -s "$BASE16_SHELL/profile_helper.sh" ] && \
+#         eval "$("$BASE16_SHELL/profile_helper.sh")"
+
