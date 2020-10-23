@@ -10,6 +10,6 @@ fi
 
 export PS1="\[$LRED\][\[$YELLOW\]\u\[$LGREEN\]@\[$LBLUE\]\h \[$LPURPLE\]\w\[$LRED\]]\[$WHITE\]\$ \[$NONE\]"
 
-loadkeys ~/.keystrings
+sudo loadkeys ~/.keystrings
 
 [ -z "$TMUX" ] && tmux -f ~/.config/tmux/tmux.conf && exit
