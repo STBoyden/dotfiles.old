@@ -7,3 +7,6 @@
 [submodule "Scripts"]
 	path = Scripts
 	url = https://github.com/STBoyden/Scripts
+[submodule ".dwm"]
+	path = .dwm
+	url = https://github.com/STBoyden/dwm-config

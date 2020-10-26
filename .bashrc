@@ -12,4 +12,6 @@ export PS1="\[$LRED\][\[$YELLOW\]\u\[$LGREEN\]@\[$LBLUE\]\h \[$LPURPLE\]\w\[$LRE
 
 sudo loadkeys ~/.keystrings
 
-[ -z "$TMUX" ] && tmux -f ~/.config/tmux/tmux.conf && exit
+[ ! -z "$(tty | egrep tty)" ] && [ -z "$(pgrep dwm)" ] && startx && exit
+[ -z "$TMUX" ] && [ -z "$(tty | egrep tty)" ] && tmux -f ~/.config/tmux/tmux.conf && exit
+
