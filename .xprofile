@@ -1,0 +1,19 @@
+#!/bin/bash
+
+setxkbmap gb &
+
+# wait for dwm to open
+while [ -z $(pgrep dwm) ]; do
+    continue
+done
+
+xmodmap -e "clear lock" &
+xmodmap -e "keycode 66 = Escape NoSymbol Escape" &
+~/Scripts/bar &
+picom \
+    --shadow-exclude "class_g = 'firefox' && argb" \
+    --backend glx \
+    --fading \
+    -b &
+nitrogen --restore &
+dunst &

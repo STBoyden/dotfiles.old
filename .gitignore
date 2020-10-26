@@ -11,4 +11,6 @@
 .xprofile.old
 .xsession-errors
 .xsession-errors.old
-
+.gtk-bookmarks
+.gtkrc-2.0
+.wget-hsts
