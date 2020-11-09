@@ -1,5 +1,5 @@
 [ -f ~/.xprofile ] && . ~/.xprofile &
 
 while true; do
-    exec dwm
+    DISPLAY=:0 exec dwm
 done
