@@ -18,3 +18,7 @@ picom \
 nitrogen --restore &
 dunst &
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+export _JAVA_AWT_WM_NONREPARENTING=1
+export AWT_TOOLKIT=MToolKit
+wmname LG3D
