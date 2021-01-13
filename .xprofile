@@ -1,24 +1,24 @@
 #!/bin/bash
 
-setxkbmap gb &
+#setxkbmap gb &
 
-# wait for dwm to open
-while [ -z $(pgrep dwm) ]; do
-    continue
-done
+# # wait for dwm to open
+# while [ -z $(pgrep dwm) ]; do
+#     continue
+# done
 
-xmodmap -e "clear lock" &
-xmodmap -e "keycode 66 = Escape NoSymbol Escape" &
-~/Scripts/bar &
-picom \
-    --shadow-exclude "class_g = 'firefox' && argb" \
-    --backend glx \
-    --fading \
-    -b &
-nitrogen --restore &
-dunst &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+# xmodmap -e "clear lock" &
+# xmodmap -e "keycode 66 = Escape NoSymbol Escape" &
+# ~/Scripts/bar &
+# picom \
+#     --shadow-exclude "class_g = 'firefox' && argb" \
+#     --backend glx \
+#     --fading \
+#     -b &
+# nitrogen --restore &
+# dunst &
+# /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-export _JAVA_AWT_WM_NONREPARENTING=1
-export AWT_TOOLKIT=MToolKit
-wmname LG3D
+# export _JAVA_AWT_WM_NONREPARENTING=1
+# export AWT_TOOLKIT=MToolKit
+# wmname LG3D

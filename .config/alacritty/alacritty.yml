@@ -1,7 +1,7 @@
 colors:
     primary:
-        background: '0x2f343f' 
-#        background: '0x000000' 
+        background: '0x2F3439'
+#        background: '0x000000'
         foreground: '0xffffff'
 
 window:
@@ -13,12 +13,12 @@ window:
     dynamic_title: true
 
 font:
-    size: 7.5
+    size: 11
     normal:
-        family: Hack
+        family: Ubuntu Mono
         style: Regular
     bold:
-        family: Hack
+        family: Ubuntu Mono
         style: Bold
 
 
@@ -30,6 +30,6 @@ bell:
 cursor:
     unfocused_true: true
 
-background_opacity: 0.90
+background_opacity: 0.99
 live_config_reload: true
 draw_bold_text_with_bright_colors: false
